@@ -1,0 +1,32 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        #c8c8c865, 
+        #c8c8c8c4), 
+        url("../img/header.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        background-color: transparent;
+        top: 40px;
+        left: 40px;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
